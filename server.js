@@ -18,8 +18,6 @@ mongoose.connect(dbConfig.url, {
     console.log('Could not connect to the database', err);
     process.exit();
 });
-const UserRoute = require('./routes/find')
-app.use('/user',UserRoute)
 app.set('view engine', 'ejs');
 app.use("/", require("./routes/create"));
 app.use("/find", require("./routes/find"));

@@ -2,7 +2,7 @@ const UserModel = require('../models/user')
 // Create and Save a new user
 exports.create = async (req, res) => {
     if (!req.body.username && !req.body.email && !req.body.password) {
-        res.status(400).send({ message: "Content can not be empty!" });
+        res.status(400).render('results', {mydata: "Content can not be empty!"})
     }
 
     const user = new UserModel({
@@ -12,14 +12,9 @@ exports.create = async (req, res) => {
     });
 
     await user.save().then(data => {
-        res.send({
-            message:"User created successfully!!",
-            user:data
-        });
+        res.render('results', {mydata: "user "+ data.username +" created succesfully!"})
     }).catch(err => {
-        res.status(500).send({
-            message: err.message || "Some error occurred while creating user"
-        });
+        res.render('results', {mydata: err.message || "Some error occurred while creating user"})
     });
 };
 // Retrieve all users from the database.
