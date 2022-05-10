@@ -7,5 +7,5 @@ const UserController = require("../controllers/User");
 router
     .route("/")
     .get((req, res) => res.render(path.resolve("./views/all.ejs")))
-router.get('/views/all.ejs', UserController.findAll);
+router.get('/', UserController.findAll);
 module.exports = router;

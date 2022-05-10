@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1a9015b-75e7-4d62-a55f-587a0a4f82ef" name="Changes" comment="smt">
+      <change afterPath="$USER_HOME$/WebstormProject/db/Procfile" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/controllers/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/controllers/User.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/db.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/User.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/all.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/all.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/find.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/find.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/update.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/update.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/server.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/server.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/find.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/find.ejs" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/update.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/update.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProject/db" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28fzkdTONefTymi58sFCM5qVwIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.33" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProject/db" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Алсер\WebstormProject\db\model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="server.js" working-dir="$USER_HOME$/WebstormProject/db">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1a9015b-75e7-4d62-a55f-587a0a4f82ef" name="Changes" comment="" />
+      <created>1651622571634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651622571634</updated>
+      <workItem from="1651622572718" duration="924000" />
+      <workItem from="1651906695552" duration="3485000" />
+      <workItem from="1651976854597" duration="8000" />
+      <workItem from="1651976876293" duration="272000" />
+      <workItem from="1651977164886" duration="121000" />
+      <workItem from="1651977301315" duration="101000" />
+      <workItem from="1651977414813" duration="862000" />
+      <workItem from="1651983006034" duration="14000" />
+      <workItem from="1651983043757" duration="225000" />
+      <workItem from="1651983282997" duration="173000" />
+      <workItem from="1651983468919" duration="3665000" />
+      <workItem from="1651994752800" duration="687000" />
+      <workItem from="1651995458709" duration="233000" />
+      <workItem from="1651995894008" duration="983000" />
+      <workItem from="1651996896760" duration="1580000" />
+      <workItem from="1652003129423" duration="752000" />
+      <workItem from="1652003917110" duration="38000" />
+      <workItem from="1652003966030" duration="13259000" />
+      <workItem from="1652097890644" duration="2314000" />
+      <workItem from="1652115200021" duration="62000" />
+      <workItem from="1652115497215" duration="7538000" />
+      <workItem from="1652143753550" duration="300000" />
+    </task>
+    <task id="LOCAL-00001" summary="smt">
+      <created>1651622718006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651622718006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="smt">
+      <created>1652116085892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652116085892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="smt" />
+    <option name="LAST_COMMIT_MESSAGE" value="smt" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

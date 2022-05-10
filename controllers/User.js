@@ -35,12 +35,12 @@ exports.findAll = async (req, res) => {
 exports.findOne = async (req, res) => {
     try {
         const user = await UserModel.findOne({email: req.query.email}).exec();
-        res.status(200).render('results', {mydata: "user: " + user.username + " " + user.email + " " + user.password});
+        res.status(200).render('find', {mydata: "user: " + user.username + " " + user.email + " " + user.password});
         if(user == null) {
-            res.status(200).render('results', {mydata: "user not found"})
+            res.status(200).render('find', {mydata: "user not found"})
         }
     } catch(error) {
-        res.status(404).render('results', { message: error.message});
+        res.status(404).render('find', { message: error.message});
     }
 };
 // Update a user by the id in the request
