@@ -19,6 +19,7 @@
     "body-parser": "^1.20.0",
     "ejs": "^3.1.7",
     "express": "^4.18.1",
+    "method-override": "^3.0.0",
     "mongoose": "^6.3.2",
     "restler": "^3.4.0"
   }

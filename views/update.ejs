@@ -49,7 +49,7 @@
                     <a class="nav-link active" href="delete">Delete User</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="update">Update User</a>
+                    <a class="nav-link active" href="create">Create User</a>
                 </li>
             </ul>
         </div>
@@ -61,7 +61,7 @@
         <div class="container">
             <div class="col-md-7 col-lg-8">
                 <h4 class="mb-3">Update</h4>
-                <form action="/update/email?_method=PATCH" class="needs-validation" novalidate method="post">
+                <form action="update" class="needs-validation" novalidate method="post">
                     <div class="row g-3">
                         <div class="col-sm-6">
                             <label for="newEmail" class="form-label">New Email</label>
@@ -73,7 +73,7 @@
 
                         <div class="col-sm-6">
                             <label for="newFirstName" class="form-label">New Name</label>
-                            <input type="text" class="form-control" name="newFirstName" id="newFirstName" placeholder="" value="" required>
+                            <input type="text" class="form-control" name="newUsername" id="newUsername" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 Valid first name is required.
                             </div>

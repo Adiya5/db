@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a9015b-75e7-4d62-a55f-587a0a4f82ef" name="Changes" comment="smt">
+      <change afterPath="$USER_HOME$/WebstormProject/db/views/res.ejs" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/.gitignore" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/.gitignore" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/config/database.config.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/config/database.config.js" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/controllers/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/controllers/User.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/node_modules/.package-lock.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/package-lock.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/package-lock.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/package.json" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/package.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/User.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/all.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/create.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/delete.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/find.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/routes/update.js" beforeDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/server.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/server.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/all.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/all.ejs" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/create.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/create.ejs" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/delete.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/delete.ejs" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/find.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/find.ejs" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/views/update.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/update.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +113,18 @@
       <workItem from="1652143753550" duration="300000" />
       <workItem from="1652144083389" duration="4790000" />
       <workItem from="1652184994539" duration="248000" />
-      <workItem from="1652185255167" duration="962000" />
+      <workItem from="1652185255167" duration="3472000" />
+      <workItem from="1652191257157" duration="9000" />
+      <workItem from="1652191281153" duration="3972000" />
+      <workItem from="1652199963566" duration="50000" />
+      <workItem from="1652200022335" duration="24000" />
+      <workItem from="1652200057140" duration="181000" />
+      <workItem from="1652200253470" duration="56000" />
+      <workItem from="1652200319959" duration="748000" />
+      <workItem from="1652201098167" duration="58000" />
+      <workItem from="1652201167276" duration="5268000" />
+      <workItem from="1652212958710" duration="2530000" />
+      <workItem from="1652247634142" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="smt">
       <created>1651622718006</created>
