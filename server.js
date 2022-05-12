@@ -32,15 +32,15 @@ mongoose.connect(dbConfig.url, {
 
 
 app.get("/", (req, res) => res.render(path.resolve("./views/create.ejs")))
-app.post("/", UserController.create);
+//app.post("/", UserController.create);
 app.get("/find", (req, res) => res.render(path.resolve("./views/find.ejs")))
-app.get('/:email', UserController.findOne);
+//app.get('/:email', UserController.findOne);
 app.get("/update", (req, res) => res.render(path.resolve("./views/update.ejs")))
-app.post('/:email', UserController.update);
+//app.post('/:email', UserController.update);
 app.get("/all", (req, res) => res.render(path.resolve("./views/all.ejs")));
-app.get('/all', UserController.findAll);
+//app.get('/all', UserController.findAll);
 app.get("/delete", (req, res) => res.render(path.resolve("./views/delete.ejs")))
-app.post('/:email', UserController.delete);
+//app.delete('/:email', UserController.delete);
 
 let port = process.env.PORT;
 if (port == null || port == "") {

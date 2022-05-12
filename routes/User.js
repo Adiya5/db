@@ -10,6 +10,6 @@ router.post('/', UserController.create);
 
 router.patch('/:email', UserController.update);
 
-router.delete('/:email', UserController.delete);
+router.post('/:email', UserController.delete);
 
 module.exports = router
