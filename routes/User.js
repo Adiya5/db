@@ -1,15 +1,9 @@
 const express = require('express')
 const UserController = require('../controllers/User')
-const path = require("path");
 const router = express.Router();
-//router.get("/", (req, res) => res.render(path.resolve("./views/create.ejs")))
-router.get('/all', UserController.findAll);
-
-router.get('/:email', UserController.findOne);
+router.get('/', UserController.findAll);
+router.get('/:id', UserController.findOne);
 router.post('/', UserController.create);
-
-router.patch('/:email', UserController.update);
-
-router.post('/:email', UserController.delete);
-
+router.patch('/:id', UserController.update);
+router.delete('/:id', UserController.destroy);
 module.exports = router
