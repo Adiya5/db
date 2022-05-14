@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b1a9015b-75e7-4d62-a55f-587a0a4f82ef" name="Changes" comment="smt">
       <change beforePath="$USER_HOME$/WebstormProject/db/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/controllers/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/controllers/User.js" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/routes/User.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/routes/User.js" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProject/db/server.js" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/server.js" afterDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProject/db/server1.js" beforeDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/views/all.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/all.ejs" afterDir="false" />
-      <change beforePath="$USER_HOME$/WebstormProject/db/views/create.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/create.ejs" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/views/delete.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/delete.ejs" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/views/find.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/find.ejs" afterDir="false" />
       <change beforePath="$USER_HOME$/WebstormProject/db/views/update.ejs" beforeDir="false" afterPath="$USER_HOME$/WebstormProject/db/views/update.ejs" afterDir="false" />
@@ -28,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProject/db" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,6 +123,10 @@
       <workItem from="1652366102357" duration="6000" />
       <workItem from="1652366145441" duration="6000" />
       <workItem from="1652366253768" duration="4000" />
+      <workItem from="1652371066465" duration="918000" />
+      <workItem from="1652425419275" duration="6302000" />
+      <workItem from="1652492207352" duration="316000" />
+      <workItem from="1652492537124" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="smt">
       <created>1651622718006</created>
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652116085892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="smt">
+      <created>1652371079324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652371079324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
