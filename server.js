@@ -13,6 +13,8 @@ app.use(methodOverride('_method'))
 
 const UserRoute = require('./routes/User')
 app.use('/user',UserRoute)
+const UserRoute2 = require('./routes/Schema')
+app.use('/files',UserRoute)
 
 const dbConfig = require('./config/database.config.js');
 const mongoose = require('mongoose');
@@ -32,15 +34,11 @@ mongoose.connect(dbConfig.url, {
 
 
 app.get("/", (req, res) => res.render(path.resolve("./views/create.ejs")))
-//app.post("/", UserController.create);
 app.get("/find", (req, res) => res.render(path.resolve("./views/find.ejs")))
-//app.get('/:email', UserController.findOne);
 app.get("/update", (req, res) => res.render(path.resolve("./views/update.ejs")))
-//app.post('/:email', UserController.update);
 app.get("/all", (req, res) => res.render(path.resolve("./views/all.ejs")));
-//app.get('/all', UserController.findAll);
 app.get("/delete", (req, res) => res.render(path.resolve("./views/delete.ejs")))
-//app.delete('/:email', UserController.delete);
+app.get("/uploads", (req, res) => res.render(path.resolve("./views/uploads.ejs")))
 
 let port = process.env.PORT;
 if (port == null || port == "") {
