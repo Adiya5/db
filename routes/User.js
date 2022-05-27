@@ -4,6 +4,6 @@ const router = express.Router();
 router.get('/', UserController.findAll);
 router.get('/:email', UserController.findOne);
 router.post('/', UserController.create);
-router.patch('/:ID', UserController.update);
-router.delete('/:ID', UserController.delete);
+router.patch('/:id', UserController.update);
+router.delete('/delete/:id', UserController.delete);
 module.exports = router

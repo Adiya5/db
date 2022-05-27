@@ -11,15 +11,28 @@ exports.create = async (req, res) => {
         password: req.body.password
     });
 
-    await user.save().then(data => {
-        res.send({
-            message:"User created successfully!!",
-            user:data
-        });
-    }).catch(err => {
-        res.status(500).send({
-            message: err.message || "Some error occurred while creating user"
-        });
+    await user.save(function(err){
+        if (err) {
+            console.log(err);
+        } else {
+            res.render("profile");
+        }
+    });
+};
+
+exports.login = async (req, res) => {
+    const username = req.body.username;
+    const password = req.body.password;
+    UserModel.findOne({email: username}, function(err, foundUser){
+        if (err) {
+            res.send("404")
+        } else {
+            if (foundUser) {
+                if (foundUser.password === password) {
+                    res.render("profile");
+                }
+            }
+        }
     });
 };
 exports.findAll = async (req, res) => {
@@ -32,7 +45,7 @@ exports.findAll = async (req, res) => {
 };
 exports.findOne = async (req, res) => {
     try {
-        const user = await UserModel.findOne({email: req.query.email}).exec();
+        const user = await UserModel.findOne({email: req.params.email}).exec();
         res.status(200).json(user);
     } catch(error) {
         res.status(404).json({ message: error.message});
@@ -68,7 +81,8 @@ exports.update = async (req, res) => {
 };
 
 exports.delete = async (req, res) => {
-    await UserModel.findByIdAndRemove(req.body.id).then(data => {
+    const currentId = req.params.id;
+    await UserModel.findOneAndDelete({id: req.params.id}).then(data => {
         if (!data) {
             res.status(404).send({
                 message: `User not found.`

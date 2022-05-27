@@ -1,4 +1,4 @@
-const path = require("path");
+/*const path = require("path");
 const home = (req, res) => {
     return res.sendFile(path.join(`${__dirname}/../views/uploads.ejs`));
 };
@@ -6,12 +6,11 @@ module.exports = {
     getHome: home
 };
 const upload = require("../middleware/multer");
-const dbConfig = require("../config/anotherdb");
 const MongoClient = require("mongodb").MongoClient;
 const GridFSBucket = require("mongodb").GridFSBucket;
-const url = dbConfig.url;
+
 const baseUrl = "http://localhost:3000/files/";
-const mongoClient = new MongoClient(url);
+
 const uploadFiles = async (req, res) => {
     try {
         await upload(req, res);
@@ -100,4 +99,4 @@ module.exports = {
     uploadFiles,
     getListFiles,
     download,
-};
+};*/
